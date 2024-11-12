@@ -14,7 +14,7 @@ services:
   app-tp-foyer:
     depends_on:
       - mysqldb
-    image: rrim/kaddem-app:1.0
+    image: mootez12/kaddem-app:1.0
     restart: on-failure
     ports:
       - 8089:8089
